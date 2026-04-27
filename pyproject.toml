@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "duel"
+version = "0.0.0"
+license = "MIT"
+readme = "README.md"
+description="bitcoin library in python"
+authors = [{name = "Ray Jones", email = ""}]
+requires-python = ">=3.9"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
